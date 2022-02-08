@@ -11,6 +11,20 @@
 		572C6A1D27B1EEB4004CCA6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A1C27B1EEB4004CCA6F /* ContentView.swift */; };
 		572C6A1F27B1EEB5004CCA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572C6A1E27B1EEB5004CCA6F /* Assets.xcassets */; };
 		572C6A2227B1EEB5004CCA6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572C6A2127B1EEB5004CCA6F /* Preview Assets.xcassets */; };
+		572C6A2927B1F93C004CCA6F /* RoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A2827B1F93C004CCA6F /* RoomListView.swift */; };
+		572C6A2C27B1F9CA004CCA6F /* AddRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A2B27B1F9CA004CCA6F /* AddRoomView.swift */; };
+		572C6A2E27B1FA31004CCA6F /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A2D27B1FA31004CCA6F /* MessageListView.swift */; };
+		572C6A3027B1FAAF004CCA6F /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A2F27B1FAAF004CCA6F /* MessageView.swift */; };
+		572C6A3427B1FC9E004CCA6F /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A3327B1FC9E004CCA6F /* PrimaryButtonStyle.swift */; };
+		572C6A3727B1FD4D004CCA6F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A3627B1FD4D004CCA6F /* View+Extensions.swift */; };
+		572C6A3927B1FE8C004CCA6F /* Text+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A3827B1FE8C004CCA6F /* Text+Extensions.swift */; };
+		572C6A3C27B1FF32004CCA6F /* AddRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A3B27B1FF32004CCA6F /* AddRoomViewModel.swift */; };
+		572C6A3E27B20097004CCA6F /* RoomListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C6A3D27B20097004CCA6F /* RoomListViewModel.swift */; };
+		574324EA27B20B8D0075B7FB /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574324E927B20B8D0075B7FB /* MessageListViewModel.swift */; };
+		574324ED27B20C580075B7FB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574324EC27B20C580075B7FB /* Room.swift */; };
+		574324EF27B20CAD0075B7FB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574324EE27B20CAD0075B7FB /* Message.swift */; };
+		574324F327B210750075B7FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574324F227B210750075B7FB /* GoogleService-Info.plist */; };
+		B23C96985E70B712689D2FF1 /* Pods_Forums.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F29916F10F64D3EE5CC3065 /* Pods_Forums.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,23 @@
 		572C6A1C27B1EEB4004CCA6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		572C6A1E27B1EEB5004CCA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572C6A2127B1EEB5004CCA6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		572C6A2827B1F93C004CCA6F /* RoomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListView.swift; sourceTree = "<group>"; };
+		572C6A2B27B1F9CA004CCA6F /* AddRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomView.swift; sourceTree = "<group>"; };
+		572C6A2D27B1FA31004CCA6F /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		572C6A2F27B1FAAF004CCA6F /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		572C6A3327B1FC9E004CCA6F /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		572C6A3627B1FD4D004CCA6F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		572C6A3827B1FE8C004CCA6F /* Text+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extensions.swift"; sourceTree = "<group>"; };
+		572C6A3B27B1FF32004CCA6F /* AddRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomViewModel.swift; sourceTree = "<group>"; };
+		572C6A3D27B20097004CCA6F /* RoomListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListViewModel.swift; sourceTree = "<group>"; };
+		574324E927B20B8D0075B7FB /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
+		574324EC27B20C580075B7FB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		574324EE27B20CAD0075B7FB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		574324F227B210750075B7FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		574324F427B210960075B7FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F29916F10F64D3EE5CC3065 /* Pods_Forums.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forums.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89F82246D6842825B08C23D /* Pods-Forums.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forums.debug.xcconfig"; path = "Target Support Files/Pods-Forums/Pods-Forums.debug.xcconfig"; sourceTree = "<group>"; };
+		ECDC4ACC1A19DA1E8D0EE5F4 /* Pods-Forums.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forums.release.xcconfig"; path = "Target Support Files/Pods-Forums/Pods-Forums.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +57,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23C96985E70B712689D2FF1 /* Pods_Forums.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A1D2D9C2E33562AF4B73EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F29916F10F64D3EE5CC3065 /* Pods_Forums.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		572C6A0E27B1EEB3004CCA6F = {
 			isa = PBXGroup;
 			children = (
 				572C6A1927B1EEB4004CCA6F /* Forums */,
 				572C6A1827B1EEB4004CCA6F /* Products */,
+				6557BF57B83FE855C61428EF /* Pods */,
+				2A1D2D9C2E33562AF4B73EA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +93,16 @@
 		572C6A1927B1EEB4004CCA6F /* Forums */ = {
 			isa = PBXGroup;
 			children = (
+				574324F427B210960075B7FB /* GoogleService-Info.plist */,
+				574324EB27B20C240075B7FB /* Models */,
+				572C6A3A27B1FEE3004CCA6F /* View Models */,
+				572C6A3527B1FD26004CCA6F /* Extensions */,
+				572C6A3227B1FC6A004CCA6F /* Styles */,
 				572C6A1A27B1EEB4004CCA6F /* ForumsApp.swift */,
 				572C6A1C27B1EEB4004CCA6F /* ContentView.swift */,
 				572C6A1E27B1EEB5004CCA6F /* Assets.xcassets */,
 				572C6A2027B1EEB5004CCA6F /* Preview Content */,
+				572C6A2A27B1F972004CCA6F /* Views */,
 			);
 			path = Forums;
 			sourceTree = "<group>";
@@ -67,6 +115,63 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		572C6A2A27B1F972004CCA6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				574324F227B210750075B7FB /* GoogleService-Info.plist */,
+				572C6A2827B1F93C004CCA6F /* RoomListView.swift */,
+				572C6A2B27B1F9CA004CCA6F /* AddRoomView.swift */,
+				572C6A2D27B1FA31004CCA6F /* MessageListView.swift */,
+				572C6A2F27B1FAAF004CCA6F /* MessageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		572C6A3227B1FC6A004CCA6F /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				572C6A3327B1FC9E004CCA6F /* PrimaryButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		572C6A3527B1FD26004CCA6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				572C6A3627B1FD4D004CCA6F /* View+Extensions.swift */,
+				572C6A3827B1FE8C004CCA6F /* Text+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		572C6A3A27B1FEE3004CCA6F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				572C6A3B27B1FF32004CCA6F /* AddRoomViewModel.swift */,
+				572C6A3D27B20097004CCA6F /* RoomListViewModel.swift */,
+				574324E927B20B8D0075B7FB /* MessageListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		574324EB27B20C240075B7FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				574324EC27B20C580075B7FB /* Room.swift */,
+				574324EE27B20CAD0075B7FB /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6557BF57B83FE855C61428EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A89F82246D6842825B08C23D /* Pods-Forums.debug.xcconfig */,
+				ECDC4ACC1A19DA1E8D0EE5F4 /* Pods-Forums.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572C6A2527B1EEB5004CCA6F /* Build configuration list for PBXNativeTarget "Forums" */;
 			buildPhases = (
+				5AC457163B9BBF9A014EAAC0 /* [CP] Check Pods Manifest.lock */,
 				572C6A1327B1EEB4004CCA6F /* Sources */,
 				572C6A1427B1EEB4004CCA6F /* Frameworks */,
 				572C6A1527B1EEB4004CCA6F /* Resources */,
+				2C4626486E7297930CC9DE56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -95,7 +202,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					572C6A1627B1EEB4004CCA6F = {
 						CreatedOnToolsVersion = 13.1;
@@ -126,19 +233,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				572C6A2227B1EEB5004CCA6F /* Preview Assets.xcassets in Resources */,
+				574324F327B210750075B7FB /* GoogleService-Info.plist in Resources */,
 				572C6A1F27B1EEB5004CCA6F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C4626486E7297930CC9DE56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Forums/Pods-Forums-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Forums/Pods-Forums-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Forums/Pods-Forums-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC457163B9BBF9A014EAAC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Forums-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		572C6A1327B1EEB4004CCA6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572C6A3E27B20097004CCA6F /* RoomListViewModel.swift in Sources */,
+				572C6A3427B1FC9E004CCA6F /* PrimaryButtonStyle.swift in Sources */,
+				574324EA27B20B8D0075B7FB /* MessageListViewModel.swift in Sources */,
+				572C6A3027B1FAAF004CCA6F /* MessageView.swift in Sources */,
+				572C6A2927B1F93C004CCA6F /* RoomListView.swift in Sources */,
+				572C6A3927B1FE8C004CCA6F /* Text+Extensions.swift in Sources */,
+				574324ED27B20C580075B7FB /* Room.swift in Sources */,
+				572C6A2C27B1F9CA004CCA6F /* AddRoomView.swift in Sources */,
+				572C6A3C27B1FF32004CCA6F /* AddRoomViewModel.swift in Sources */,
 				572C6A1D27B1EEB4004CCA6F /* ContentView.swift in Sources */,
+				572C6A2E27B1FA31004CCA6F /* MessageListView.swift in Sources */,
+				572C6A3727B1FD4D004CCA6F /* View+Extensions.swift in Sources */,
 				572C6A1B27B1EEB4004CCA6F /* ForumsApp.swift in Sources */,
+				574324EF27B20CAD0075B7FB /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +425,7 @@
 		};
 		572C6A2627B1EEB5004CCA6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89F82246D6842825B08C23D /* Pods-Forums.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +455,7 @@
 		};
 		572C6A2727B1EEB5004CCA6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDC4ACC1A19DA1E8D0EE5F4 /* Pods-Forums.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
