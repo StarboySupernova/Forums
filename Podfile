@@ -22,6 +22,7 @@ pod 'FirebaseFirestoreSwift'
 # For example, to use Firebase Authentication and Cloud Firestore
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
 
 end
 

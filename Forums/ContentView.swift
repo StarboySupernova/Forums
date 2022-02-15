@@ -8,39 +8,54 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var usernameEntry: String = ""
+    //@State private var usernameEntry: String = ""
     @State private var isActive: Bool = false
-    @AppStorage("username") private var username = ""
+    //@AppStorage("username") private var username = ""
+    @State private var showUserRegistrationSheet = false
+    @ObservedObject var loginVM = LoginViewModel()
+    @ObservedObject var userSettings = UserSettings()
     
     var body: some View {
         VStack {
-           
+            
             Image("logo")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .clipShape(Circle())
             
             Spacer()
             
-            TextField("Enter username", text: $usernameEntry)
+            TextField("Enter username", text: $userSettings.username)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
+                .autocapitalization(.none)
+                .disableAutocorrection(true)
+            
+            
+            //we will put some code to authenticate
             
             Button("Enter") {
                 isActive = true
-                username = usernameEntry
-               
+                //username = userSettings.username
+                
             }.buttonStyle(PrimaryButtonStyle())
+            
+            Button("Show Sheet") {
+                showUserRegistrationSheet.toggle()
+            }
+            .sheet(isPresented: $showUserRegistrationSheet) {
+                UserRegistrationView()
+            }
             
             NavigationLink(
                 destination: RoomListView(),
-                isActive: $isActive,
+                isActive: $isActive, //if this property is tru then the navigation is automatically going to happen
                 label: {
                     EmptyView()
                 })
             
             Spacer()
         }.padding()
-        .embedInNavigationView()
+            .embedInNavigationView()
     }
 }
 
