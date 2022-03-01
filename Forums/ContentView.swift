@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    //@State private var usernameEntry: String = ""
     @State private var isActive: Bool = false
-    //@AppStorage("username") private var username = ""
     @State private var showUserRegistrationSheet = false
     @ObservedObject var loginVM = LoginViewModel()
     @ObservedObject var userSettings = UserSettings()
@@ -29,17 +27,22 @@ struct ContentView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .autocapitalization(.none)
                 .disableAutocorrection(true)
-            
-            
-            //we will put some code to authenticate
+            TextField("Email", text: $loginVM.email)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .textInputAutocapitalization(.never) //because .autocapitalization will be deprecated soon
+                .disableAutocorrection(true)
+            SecureField("Password", text: $loginVM.password)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .textInputAutocapitalization(.never)
+                .disableAutocorrection(true)
             
             Button("Enter") {
-                isActive = true
-                //username = userSettings.username
-                
+                loginVM.login {
+                    isActive = true
+                }
             }.buttonStyle(PrimaryButtonStyle())
             
-            Button("Show Sheet") {
+            Button("Don't have an account? Tap here") {
                 showUserRegistrationSheet.toggle()
             }
             .sheet(isPresented: $showUserRegistrationSheet) {
@@ -48,7 +51,7 @@ struct ContentView: View {
             
             NavigationLink(
                 destination: RoomListView(),
-                isActive: $isActive, //if this property is tru then the navigation is automatically going to happen
+                isActive: $isActive, //if this property is true then the navigation is automatically going to happen
                 label: {
                     EmptyView()
                 })

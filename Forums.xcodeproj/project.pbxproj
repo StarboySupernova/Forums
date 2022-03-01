@@ -28,6 +28,8 @@
 		577424AD27BC4CAB0027E0D9 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577424AC27BC4CAB0027E0D9 /* UserSettings.swift */; };
 		579D5EB027B8635800FEAC05 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D5EAF27B8635800FEAC05 /* RegisterViewModel.swift */; };
 		579D5EB227B87FBC00FEAC05 /* UserRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D5EB127B87FBC00FEAC05 /* UserRegistrationView.swift */; };
+		57AA068827C123E0002D4E7A /* DarkBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AA068727C123E0002D4E7A /* DarkBackground.swift */; };
+		57AA068A27C12765002D4E7A /* ColorBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AA068927C12765002D4E7A /* ColorBackground.swift */; };
 		B23C96985E70B712689D2FF1 /* Pods_Forums.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F29916F10F64D3EE5CC3065 /* Pods_Forums.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		577424AC27BC4CAB0027E0D9 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		579D5EAF27B8635800FEAC05 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		579D5EB127B87FBC00FEAC05 /* UserRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationView.swift; sourceTree = "<group>"; };
+		57AA068727C123E0002D4E7A /* DarkBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkBackground.swift; sourceTree = "<group>"; };
+		57AA068927C12765002D4E7A /* ColorBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBackground.swift; sourceTree = "<group>"; };
 		7F29916F10F64D3EE5CC3065 /* Pods_Forums.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forums.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89F82246D6842825B08C23D /* Pods-Forums.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forums.debug.xcconfig"; path = "Target Support Files/Pods-Forums/Pods-Forums.debug.xcconfig"; sourceTree = "<group>"; };
 		ECDC4ACC1A19DA1E8D0EE5F4 /* Pods-Forums.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forums.release.xcconfig"; path = "Target Support Files/Pods-Forums/Pods-Forums.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				572C6A3327B1FC9E004CCA6F /* PrimaryButtonStyle.swift */,
+				57AA068727C123E0002D4E7A /* DarkBackground.swift */,
+				57AA068927C12765002D4E7A /* ColorBackground.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -310,8 +316,10 @@
 				574324ED27B20C580075B7FB /* Room.swift in Sources */,
 				572C6A2C27B1F9CA004CCA6F /* AddRoomView.swift in Sources */,
 				5749D9F427BB2FEE00744804 /* LoginViewModel.swift in Sources */,
+				57AA068A27C12765002D4E7A /* ColorBackground.swift in Sources */,
 				572C6A3C27B1FF32004CCA6F /* AddRoomViewModel.swift in Sources */,
 				572C6A1D27B1EEB4004CCA6F /* ContentView.swift in Sources */,
+				57AA068827C123E0002D4E7A /* DarkBackground.swift in Sources */,
 				577424AD27BC4CAB0027E0D9 /* UserSettings.swift in Sources */,
 				572C6A2E27B1FA31004CCA6F /* MessageListView.swift in Sources */,
 				572C6A3727B1FD4D004CCA6F /* View+Extensions.swift in Sources */,

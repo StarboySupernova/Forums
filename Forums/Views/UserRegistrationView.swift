@@ -13,6 +13,7 @@ struct UserRegistrationView: View {
      Important note to self: If you’re targeting iOS 14 or below, you should use @Environment(\.presentationMode) var presentationMode and `presentationMode.wrappedValue.dismiss() instead.
      */
     @StateObject private var registerVM = RegisterViewModel()
+    @ObservedObject private var userSettings = UserSettings()
     
     var body: some View {
         VStack {
@@ -36,8 +37,14 @@ struct UserRegistrationView: View {
             SecureField("password", text: $registerVM.password)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
+            Toggle(isOn: $userSettings.isPrivate, label: {
+                Text("Staff Account")
+            })
+                .padding()//full exclusivity to be implemented in future
             Button(action: {
+                //userSettings.username = registerVM.username
                 registerVM.register {
+                    userSettings.username = registerVM.username
                     dismiss()
                 }
             }, label: {
